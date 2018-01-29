@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A2082BC201FDD250048DC48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2082BB201FDD250048DC48 /* AppDelegate.swift */; };
+		9A2082BE201FDD250048DC48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2082BD201FDD250048DC48 /* ViewController.swift */; };
+		9A2082C1201FDD250048DC48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A2082BF201FDD250048DC48 /* Main.storyboard */; };
+		9A2082C3201FDD250048DC48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A2082C2201FDD250048DC48 /* Assets.xcassets */; };
+		9A2082C6201FDD250048DC48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A2082C4201FDD250048DC48 /* LaunchScreen.storyboard */; };
+		9A2082D1201FDD250048DC48 /* TumblehTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2082D0201FDD250048DC48 /* TumblehTests.swift */; };
+		9A2082DC201FDD250048DC48 /* TumblehUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2082DB201FDD250048DC48 /* TumblehUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A2082CD201FDD250048DC48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A2082B0201FDD250048DC48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A2082B7201FDD250048DC48;
+			remoteInfo = Tumbleh;
+		};
+		9A2082D8201FDD250048DC48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A2082B0201FDD250048DC48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A2082B7201FDD250048DC48;
+			remoteInfo = Tumbleh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A2082B8201FDD250048DC48 /* Tumbleh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tumbleh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A2082BB201FDD250048DC48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9A2082BD201FDD250048DC48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9A2082C0201FDD250048DC48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A2082C2201FDD250048DC48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A2082C5201FDD250048DC48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A2082C7201FDD250048DC48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A2082CC201FDD250048DC48 /* TumblehTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TumblehTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A2082D0201FDD250048DC48 /* TumblehTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TumblehTests.swift; sourceTree = "<group>"; };
+		9A2082D2201FDD250048DC48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A2082D7201FDD250048DC48 /* TumblehUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TumblehUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A2082DB201FDD250048DC48 /* TumblehUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TumblehUITests.swift; sourceTree = "<group>"; };
+		9A2082DD201FDD250048DC48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A2082B5201FDD250048DC48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A2082C9201FDD250048DC48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A2082D4201FDD250048DC48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A2082AF201FDD250048DC48 = {
+			isa = PBXGroup;
+			children = (
+				9A2082BA201FDD250048DC48 /* Tumbleh */,
+				9A2082CF201FDD250048DC48 /* TumblehTests */,
+				9A2082DA201FDD250048DC48 /* TumblehUITests */,
+				9A2082B9201FDD250048DC48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A2082B9201FDD250048DC48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A2082B8201FDD250048DC48 /* Tumbleh.app */,
+				9A2082CC201FDD250048DC48 /* TumblehTests.xctest */,
+				9A2082D7201FDD250048DC48 /* TumblehUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A2082BA201FDD250048DC48 /* Tumbleh */ = {
+			isa = PBXGroup;
+			children = (
+				9A2082BB201FDD250048DC48 /* AppDelegate.swift */,
+				9A2082BD201FDD250048DC48 /* ViewController.swift */,
+				9A2082BF201FDD250048DC48 /* Main.storyboard */,
+				9A2082C2201FDD250048DC48 /* Assets.xcassets */,
+				9A2082C4201FDD250048DC48 /* LaunchScreen.storyboard */,
+				9A2082C7201FDD250048DC48 /* Info.plist */,
+			);
+			path = Tumbleh;
+			sourceTree = "<group>";
+		};
+		9A2082CF201FDD250048DC48 /* TumblehTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A2082D0201FDD250048DC48 /* TumblehTests.swift */,
+				9A2082D2201FDD250048DC48 /* Info.plist */,
+			);
+			path = TumblehTests;
+			sourceTree = "<group>";
+		};
+		9A2082DA201FDD250048DC48 /* TumblehUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9A2082DB201FDD250048DC48 /* TumblehUITests.swift */,
+				9A2082DD201FDD250048DC48 /* Info.plist */,
+			);
+			path = TumblehUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A2082B7201FDD250048DC48 /* Tumbleh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A2082E0201FDD250048DC48 /* Build configuration list for PBXNativeTarget "Tumbleh" */;
+			buildPhases = (
+				9A2082B4201FDD250048DC48 /* Sources */,
+				9A2082B5201FDD250048DC48 /* Frameworks */,
+				9A2082B6201FDD250048DC48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tumbleh;
+			productName = Tumbleh;
+			productReference = 9A2082B8201FDD250048DC48 /* Tumbleh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A2082CB201FDD250048DC48 /* TumblehTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A2082E3201FDD250048DC48 /* Build configuration list for PBXNativeTarget "TumblehTests" */;
+			buildPhases = (
+				9A2082C8201FDD250048DC48 /* Sources */,
+				9A2082C9201FDD250048DC48 /* Frameworks */,
+				9A2082CA201FDD250048DC48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A2082CE201FDD250048DC48 /* PBXTargetDependency */,
+			);
+			name = TumblehTests;
+			productName = TumblehTests;
+			productReference = 9A2082CC201FDD250048DC48 /* TumblehTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A2082D6201FDD250048DC48 /* TumblehUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A2082E6201FDD250048DC48 /* Build configuration list for PBXNativeTarget "TumblehUITests" */;
+			buildPhases = (
+				9A2082D3201FDD250048DC48 /* Sources */,
+				9A2082D4201FDD250048DC48 /* Frameworks */,
+				9A2082D5201FDD250048DC48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A2082D9201FDD250048DC48 /* PBXTargetDependency */,
+			);
+			name = TumblehUITests;
+			productName = TumblehUITests;
+			productReference = 9A2082D7201FDD250048DC48 /* TumblehUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A2082B0201FDD250048DC48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Sandra Flores";
+				TargetAttributes = {
+					9A2082B7201FDD250048DC48 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					9A2082CB201FDD250048DC48 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9A2082B7201FDD250048DC48;
+					};
+					9A2082D6201FDD250048DC48 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9A2082B7201FDD250048DC48;
+					};
+				};
+			};
+			buildConfigurationList = 9A2082B3201FDD250048DC48 /* Build configuration list for PBXProject "Tumbleh" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A2082AF201FDD250048DC48;
+			productRefGroup = 9A2082B9201FDD250048DC48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A2082B7201FDD250048DC48 /* Tumbleh */,
+				9A2082CB201FDD250048DC48 /* TumblehTests */,
+				9A2082D6201FDD250048DC48 /* TumblehUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A2082B6201FDD250048DC48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A2082C6201FDD250048DC48 /* LaunchScreen.storyboard in Resources */,
+				9A2082C3201FDD250048DC48 /* Assets.xcassets in Resources */,
+				9A2082C1201FDD250048DC48 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A2082CA201FDD250048DC48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A2082D5201FDD250048DC48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A2082B4201FDD250048DC48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A2082BE201FDD250048DC48 /* ViewController.swift in Sources */,
+				9A2082BC201FDD250048DC48 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A2082C8201FDD250048DC48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A2082D1201FDD250048DC48 /* TumblehTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A2082D3201FDD250048DC48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A2082DC201FDD250048DC48 /* TumblehUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A2082CE201FDD250048DC48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A2082B7201FDD250048DC48 /* Tumbleh */;
+			targetProxy = 9A2082CD201FDD250048DC48 /* PBXContainerItemProxy */;
+		};
+		9A2082D9201FDD250048DC48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A2082B7201FDD250048DC48 /* Tumbleh */;
+			targetProxy = 9A2082D8201FDD250048DC48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A2082BF201FDD250048DC48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A2082C0201FDD250048DC48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A2082C4201FDD250048DC48 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A2082C5201FDD250048DC48 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A2082DE201FDD250048DC48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9A2082DF201FDD250048DC48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A2082E1201FDD250048DC48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Tumbleh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.csumb.sfloressilverio.Tumbleh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A2082E2201FDD250048DC48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Tumbleh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.csumb.sfloressilverio.Tumbleh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9A2082E4201FDD250048DC48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TumblehTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.csumb.sfloressilverio.TumblehTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tumbleh.app/Tumbleh";
+			};
+			name = Debug;
+		};
+		9A2082E5201FDD250048DC48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TumblehTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.csumb.sfloressilverio.TumblehTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tumbleh.app/Tumbleh";
+			};
+			name = Release;
+		};
+		9A2082E7201FDD250048DC48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TumblehUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.csumb.sfloressilverio.TumblehUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tumbleh;
+			};
+			name = Debug;
+		};
+		9A2082E8201FDD250048DC48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TumblehUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.csumb.sfloressilverio.TumblehUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tumbleh;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A2082B3201FDD250048DC48 /* Build configuration list for PBXProject "Tumbleh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A2082DE201FDD250048DC48 /* Debug */,
+				9A2082DF201FDD250048DC48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A2082E0201FDD250048DC48 /* Build configuration list for PBXNativeTarget "Tumbleh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A2082E1201FDD250048DC48 /* Debug */,
+				9A2082E2201FDD250048DC48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A2082E3201FDD250048DC48 /* Build configuration list for PBXNativeTarget "TumblehTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A2082E4201FDD250048DC48 /* Debug */,
+				9A2082E5201FDD250048DC48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A2082E6201FDD250048DC48 /* Build configuration list for PBXNativeTarget "TumblehUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A2082E7201FDD250048DC48 /* Debug */,
+				9A2082E8201FDD250048DC48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A2082B0201FDD250048DC48 /* Project object */;
+}
