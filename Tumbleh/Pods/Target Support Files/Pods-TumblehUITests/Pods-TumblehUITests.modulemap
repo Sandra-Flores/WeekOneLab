@@ -1,0 +1,6 @@
+framework module Pods_TumblehUITests {
+  umbrella header "Pods-TumblehUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
