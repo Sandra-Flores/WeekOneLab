@@ -41,7 +41,7 @@ Describe any challenges encountered while building the app.
 
 ----------
 
-# Lab 2 - *Tumble - part 2*
+# Lab 2 - *Tumble* - part 2
 
 **Tumbleh** is a photo browsing app app using the [The Tumblr API](https://www.tumblr.com/docs/en/api/v2#posts).
 
@@ -72,7 +72,7 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://imgur.com/sUhhKhA.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/a/hx13K.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
